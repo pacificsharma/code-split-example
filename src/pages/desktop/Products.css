@@ -1,0 +1,11 @@
+.Products ul {
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+
+.Products li {
+  padding-bottom: 15px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "desktop-mobile-code-split",
+  "version": "1.0.0",
+  "description": "Split your React web app in two - mobile and desktop. Load only related code based on device detection.",
+  "keywords": [
+    "touch",
+    "code split",
+    "reactjs",
+    "app",
+    "media query"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
